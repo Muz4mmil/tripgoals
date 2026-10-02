@@ -90,7 +90,7 @@ export default async function HomePage() {
           />
           <div
             className={cn(
-              '-mx-4 flex snap-x snap-mandatory gap-4 overflow-x-auto px-4 pb-2 sm:mx-0 sm:grid sm:grid-cols-2 sm:overflow-visible sm:px-0',
+              '-mx-4 flex snap-x snap-mandatory scroll-px-4 scrollbar-none gap-4 [&::-webkit-scrollbar]:hidden overflow-x-auto overflow-y-hidden px-4 pb-2 sm:mx-0 sm:grid sm:grid-cols-2 sm:overflow-visible sm:px-0',
               LG_COLS[special.length],
             )}
           >

@@ -120,7 +120,17 @@ export function SiteFooter() {
             <p>
               © <CurrentYear /> TripGoals. All rights reserved.
             </p>
-            <p>Crafted for travellers who love India.</p>
+            <p>
+              Crafted by{' '}
+              <a
+                href="https://flowgenlabs.in"
+                target="_blank"
+                rel="noopener"
+                className="text-white/75 underline-offset-4 transition-colors hover:text-white underline"
+              >
+                Flowgen Labs
+              </a>
+            </p>
           </div>
         </div>
 
