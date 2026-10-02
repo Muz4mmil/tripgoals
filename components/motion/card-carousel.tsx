@@ -24,7 +24,7 @@ export function CardCarousel({
   // Embla is an external store: subscribe to it instead of mirroring its state in an effect.
   const subscribe = useCallback(
     (notify: () => void) => {
-      if (!api) return () => {};
+      if (!api) return () => { };
       api.on('select', notify).on('reInit', notify).on('scroll', notify);
       return () => {
         api.off('select', notify).off('reInit', notify).off('scroll', notify);
